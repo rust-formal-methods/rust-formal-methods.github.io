@@ -1,0 +1,14 @@
+[book]
+authors = ["Rust Formal Methods Interest Group"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Rust Formal Methods Interest Group"
+
+[output.html]
+site-url = "/"
+git-repository-url = "https://github.com/rust-formal-methods/website"
+
+[output.html.fold]
+enable = true
+level = 0
