@@ -6,7 +6,7 @@ src = "src"
 title = "Rust Formal Methods Interest Group"
 
 [output.html]
-site-url = "/"
+site-url = "/website"
 git-repository-url = "https://github.com/rust-formal-methods/website"
 
 [output.html.fold]
