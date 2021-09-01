@@ -1,2 +1,2 @@
-- [Welcome](./welcome)
+- [Welcome](./welcome.md)
 - [Code of Conduct](./coc.md)
