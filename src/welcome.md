@@ -19,5 +19,8 @@ Our objectives are to:
 
 We are planning to hold our inaugural meeting on **September 20th, 2021** at **19:00 CET (UTC+1)**.
 
-An invite will be posted soon.
+To register for the inaugural meeting, you can sign up [here](https://www.eventbrite.com/e/rust-formal-methods-inaugural-meeting-tickets-169736878573).
 
+During this meeting, we will introduce the RFMIG, and have a presentation from Vytautas Astraukas of Prusti, showing a little glimpse of verification for Rust software.
+
+We look forward to seeing you there!
