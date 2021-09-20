@@ -1,6 +1,6 @@
 # Rust Formal Methods Interest Group
 
-[WG repo]() | [Zulip Channel]()
+[WG repo](https://github.com/rust-formal-methods/wg) | [Zulip Channel](https://rust-lang.zulipchat.com/#narrow/stream/183875-wg-formal-methods)
 
 The RFMIG provides a forum for academics, industry users and any other interested party discuss and collaborate on the challenges of Rust program verification.
 
