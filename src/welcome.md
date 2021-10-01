@@ -15,6 +15,10 @@ Our objectives are to:
 - Gather feedback and input from industrial and hobbyist users of formal method tooling.
 - Work towards improving tool inter-compatibility, in particular of specifications.
 
+## October Meeting (October 25th, 2021)
+
+The October meeting of the RFMIG will be held on
+
 ## Inaugural Meeting (September 20th, 2021)
 
 We are planning to hold our inaugural meeting on **September 20th, 2021** at **19:00 CET (UTC+1)**.
