@@ -159,30 +159,36 @@ Concurrency checkers</li>
 <h2 id="automatic-verification-tools"><a class="header" href="#automatic-verification-tools">Automatic verification tools</a></h2>
 <p>Typically relies on a verification harness to generate symbolic input values for the code under test (although those can sometimes be generated from the function argument types). Typically checks assertions, panics, overflows, etc.</p>
 <h2 id="bounded-model-checking--static-symbolic-execution"><a class="header" href="#bounded-model-checking--static-symbolic-execution">Bounded model checking / Static Symbolic Execution</a></h2>
-<p><a href="https://github.com/model-checking/rmc">Rust Model Checker (RMC)</a>
-<a href="https://github.com/smackers/smack">SMACK verifier</a>
-[Crux-mir](https://crux.galois.com/  https://github.com/GaloisInc/crucible/tree/master/crux-mir)
-<a href="https://github.com/uwplse/crust">Crust</a>
-Rust → C plus checker for unsafe code (inactive)</p>
+<ul>
+<li><a href="https://github.com/model-checking/rmc">Rust Model Checker (RMC)</a></li>
+<li><a href="https://github.com/smackers/smack">SMACK verifier</a></li>
+<li>[Crux-mir](https://crux.galois.com/  https://github.com/GaloisInc/crucible/tree/master/crux-mir)</li>
+<li><a href="https://github.com/uwplse/crust">Crust</a></li>
+</ul>
 <h2 id="abstract-interpreter-"><a class="header" href="#abstract-interpreter-">Abstract interpreter ++</a></h2>
-<p><a href="https://github.com/facebookexperimental/MIRAI">MIRAI</a></p>
+<ul>
+<li><a href="https://github.com/facebookexperimental/MIRAI">MIRAI</a></li>
+</ul>
 <h2 id="dynamic-symbolic-execution"><a class="header" href="#dynamic-symbolic-execution">Dynamic Symbolic Execution</a></h2>
-<p><a href="https://project-oak.github.io/rust-verification-tools/">RVT</a>
+<ul>
+<li><a href="https://project-oak.github.io/rust-verification-tools/">RVT</a>
 Rust → LLVM → {KLEE,SeaHorn} 
-Plus a DSL for writing verification harnesses based on the property-based testing library proptest
-<a href="https://github.com/PLSysSec/haybale">Haybale</a>
-symbolic execution engine for LLVM written in Rust
-<a href="https://github.com/dwrensha/seer">Seer</a>
-symbolic execution engine based on Miri (not sure it is active)
-<a href="https://github.com/jawline/klee-rust">KLEE-Rust</a>
+Plus a DSL for writing verification harnesses based on the property-based testing library proptest</li>
+<li><a href="https://github.com/PLSysSec/haybale">Haybale</a>
+symbolic execution engine for LLVM written in Rust</li>
+<li><a href="https://github.com/dwrensha/seer">Seer</a>
+symbolic execution engine based on Miri (not sure it is active)</li>
+<li><a href="https://github.com/jawline/klee-rust">KLEE-Rust</a>
 KLEE bindings for Rust (inactive for 6 years)
-Unbounded (?)
-<a href="https://github.com/hopv/rust-horn">RustHorn</a>
-Rust → CHC verifier
-Auto-active verification tools
-Midway between automatic and interactive verification. Relies on hints/annotations/etc inserted in source code such as function contracts, loop invariants, data structure invariants, etc.
-<a href="https://www.pm.inf.ethz.ch/research/prusti.html">Prusti</a> <a href="https://viperproject.github.io/prusti-dev/">github link</a>
-<a href="https://github.com/xldenis/creusot">Creusot</a> Rust → whyml verifier</p>
+Unbounded (?)</li>
+<li><a href="https://github.com/hopv/rust-horn">RustHorn</a></li>
+</ul>
+<h2 id="auto-active-verification"><a class="header" href="#auto-active-verification">Auto-Active Verification</a></h2>
+<p>Midway between automatic and interactive verification. Relies on hints/annotations/etc inserted in source code such as function contracts, loop invariants, data structure invariants, etc.</p>
+<ul>
+<li><a href="https://www.pm.inf.ethz.ch/research/prusti.html">Prusti</a> <a href="https://viperproject.github.io/prusti-dev/">github link</a></li>
+<li><a href="https://github.com/xldenis/creusot">Creusot</a> Rust → whyml verifier</li>
+</ul>
 <h2 id="interactive-verification"><a class="header" href="#interactive-verification">Interactive verification</a></h2>
 <p>Converts Rust to code in an interactive theorem prover which is then verified with human input.
 This allows one to treat more complex programs.</p>
@@ -205,9 +211,13 @@ Semantics close to MIR, focuses on verification of unsafe code, </li>
 <li><a href="https://github.com/vellvm/vellvm">VeLLVM</a>  Formalization of the LLVM compilation infrastructure</li>
 </ul>
 <h4 id="lean-prover"><a class="header" href="#lean-prover">LEAN prover</a></h4>
-<p><a href="https://github.com/Kha/electrolysis">Electrolysis</a> Rust → LEAN translator (no longer active, MSc thesis)</p>
+<ul>
+<li><a href="https://github.com/Kha/electrolysis">Electrolysis</a> Rust → LEAN translator (no longer active, MSc thesis)</li>
+</ul>
 <h2 id="standardizationspecification"><a class="header" href="#standardizationspecification">Standardization/Specification</a></h2>
-<p><a href="https://ferrous-systems.com/blog/sealed-rust-the-pitch/">Ferrocene</a> (previously called Sealed Rust)</p>
+<ul>
+<li><a href="https://ferrous-systems.com/blog/sealed-rust-the-pitch/">Ferrocene</a> (previously called Sealed Rust)</li>
+</ul>
 
                     </main>
 
