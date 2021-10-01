@@ -17,14 +17,10 @@ Our objectives are to:
 
 ## October Meeting (October 25th, 2021)
 
-The October meeting of the RFMIG will be held on
+The October meeting of the RFMIG will be held on **October 25th, 2021** at **19:00 CET (UTC + 1)**.
 
-## Inaugural Meeting (September 20th, 2021)
+To register for the meeting, sign up [here](https://www.eventbrite.com/e/rfmig-specifications-tickets-179529526647?ref=estw).
 
-We are planning to hold our inaugural meeting on **September 20th, 2021** at **19:00 CET (UTC+1)**.
-
-To register for the inaugural meeting, you can sign up [here](https://www.eventbrite.com/e/rust-formal-methods-inaugural-meeting-tickets-169736878573).
-
-During this meeting, we will introduce the RFMIG, and have a presentation from Vytautas Astraukas of Prusti, showing a little glimpse of verification for Rust software.
+We will be having a discussion on specifications for Rust programs, and going over some example programs to discuss opinions and views.
 
 We look forward to seeing you there!
