@@ -24,3 +24,6 @@ To register for the meeting, sign up [here](https://www.eventbrite.com/e/rfmig-s
 We will be having a discussion on specifications for Rust programs, and going over some example programs to discuss opinions and views.
 
 We look forward to seeing you there!
+
+## Future Meetings
+- November 29th, 2021
