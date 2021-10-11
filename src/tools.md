@@ -12,17 +12,15 @@ Concurrency checkers
 Typically relies on a verification harness to generate symbolic input values for the code under test (although those can sometimes be generated from the function argument types). Typically checks assertions, panics, overflows, etc.
 
 ## Bounded model checking / Static Symbolic Execution
-
 * [Rust Model Checker (RMC)](https://github.com/model-checking/rmc)
 * [SMACK verifier](https://github.com/smackers/smack)
-* [Crux-mir](https://crux.galois.com/  https://github.com/GaloisInc/crucible/tree/master/crux-mir)
+* [Crux-mir](https://crux.galois.com/) [github](https://github.com/GaloisInc/crucible/tree/master/crux-mir)
 * [Crust](https://github.com/uwplse/crust)
 
 ## Abstract interpreter ++
+* [MIRAI](https://github.com/facebookexperimental/MIRAI) (also maintains [a page](https://github.com/facebookexperimental/MIRAI/blob/main/documentation/FurtherReading.md) like this)
 
-* [MIRAI](https://github.com/facebookexperimental/MIRAI)
 ## Dynamic Symbolic Execution
-
 * [RVT](https://project-oak.github.io/rust-verification-tools/)
 Rust → LLVM → {KLEE,SeaHorn} 
 Plus a DSL for writing verification harnesses based on the property-based testing library proptest
@@ -36,7 +34,6 @@ Unbounded (?)
 * [RustHorn](https://github.com/hopv/rust-horn)
 
 ## Auto-Active Verification
-
 Midway between automatic and interactive verification. Relies on hints/annotations/etc inserted in source code such as function contracts, loop invariants, data structure invariants, etc.
 
 * [Prusti](https://www.pm.inf.ethz.ch/research/prusti.html) [github link](https://viperproject.github.io/prusti-dev/)
