@@ -208,10 +208,14 @@ Unbounded (?)</li>
 <h2 id="interactive-verification"><a class="header" href="#interactive-verification">Interactive verification</a></h2>
 <p>Converts Rust to code in an interactive theorem prover which is then verified with human input.
 This allows one to treat more complex programs.</p>
-<h4 id="coq"><a class="header" href="#coq">Coq</a></h4>
+<h4 id="very-safe-subset-of-rust"><a class="header" href="#very-safe-subset-of-rust">Very safe subset of rust</a></h4>
 <ul>
 <li><a href="https://github.com/hacspec/hacspec">HacSpec</a> A specification language for cryptographic primitives in Rust.
+Has backends in <a href="https://www.fstar-lang.org/">F-star</a>, <a href="https://coq.inria.fr/">Coq</a> and <a href="https://www.easycrypt.info/">EasyCrypt</a>.
 Also has non-cryptographic applications: <a href="https://github.com/hacspec/hacspec/blob/master/examples/riot-bootloader/src/lib.rs">riot bootloader</a>, the part of the bootloader that selects which image to boot :  involves a small hash algorithm and a list traversal. <a href="https://future-proof-iot.github.io/RIOT-fp/events">RIOT link</a></li>
+</ul>
+<h4 id="coq"><a class="header" href="#coq">Coq</a></h4>
+<ul>
 <li><a href="https://github.com/AU-COBRA/ConCert">ConCert</a> extracts functional programs in Coq to Rust by using arenas. It originated from smart contract verification.</li>
 <li><a href="https://github.com/mit-plv/fiat-crypto">fiat cryptography</a> is a verified compiler for cryptographic primitives in Coq that generates Rust implementations (and other languages). <a href="https://github.com/AU-COBRA/AUCurves/blob/main/src/Bedrock/ToRustString.v">WIP</a> on extending bedrock2 with a rust printer.</li>
 </ul>
@@ -232,6 +236,7 @@ Semantics close to MIR, focuses on verification of unsafe code, </li>
 </ul>
 <h2 id="standardizationspecification"><a class="header" href="#standardizationspecification">Standardization/Specification</a></h2>
 <ul>
+<li><a href="https://github.com/hacspec/hacspec">HacSpec</a> A specification language for cryptographic primitives in Rust.</li>
 <li><a href="https://ferrous-systems.com/blog/sealed-rust-the-pitch/">Ferrocene</a> (previously called Sealed Rust)</li>
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h2 id="previous-meetings"><a class="header" href="#previous-meetings">Previous Meetings</a></h2>
