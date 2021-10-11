@@ -43,9 +43,12 @@ Midway between automatic and interactive verification. Relies on hints/annotatio
 Converts Rust to code in an interactive theorem prover which is then verified with human input.
 This allows one to treat more complex programs.
 
-#### Coq
+#### Very safe subset of rust
 * [HacSpec](https://github.com/hacspec/hacspec) A specification language for cryptographic primitives in Rust.
+Has backends in [F-star](https://www.fstar-lang.org/), [Coq](https://coq.inria.fr/) and [EasyCrypt](https://www.easycrypt.info/).
 Also has non-cryptographic applications: [riot bootloader](https://github.com/hacspec/hacspec/blob/master/examples/riot-bootloader/src/lib.rs), the part of the bootloader that selects which image to boot :  involves a small hash algorithm and a list traversal. [RIOT link](https://future-proof-iot.github.io/RIOT-fp/events)
+
+#### Coq
 * [ConCert](https://github.com/AU-COBRA/ConCert) extracts functional programs in Coq to Rust by using arenas. It originated from smart contract verification.
 * [fiat cryptography](https://github.com/mit-plv/fiat-crypto) is a verified compiler for cryptographic primitives in Coq that generates Rust implementations (and other languages). [WIP](https://github.com/AU-COBRA/AUCurves/blob/main/src/Bedrock/ToRustString.v) on extending bedrock2 with a rust printer.
 #### Interactive verification of the foundations of Rust
@@ -62,4 +65,5 @@ Semantics close to MIR, focuses on verification of unsafe code,
 
 ## Standardization/Specification
 
+* [HacSpec](https://github.com/hacspec/hacspec) A specification language for cryptographic primitives in Rust.
 * [Ferrocene](https://ferrous-systems.com/blog/sealed-rust-the-pitch/) (previously called Sealed Rust)
