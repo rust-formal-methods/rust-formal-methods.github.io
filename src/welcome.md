@@ -17,7 +17,7 @@ Our objectives are to:
 
 ## October Meeting (October 25th, 2021)
 
-The October meeting of the RFMIG will be held on **October 25th, 2021** at **19:00 CET (UTC + 1)**.
+The October meeting of the RFMIG will be held on **October 25th, 2021** at **19:00 CEST (UTC + 2)**.
 
 To register for the meeting, sign up [here](https://www.eventbrite.com/e/rfmig-specifications-tickets-179529526647?ref=estw).
 
