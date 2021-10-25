@@ -17,9 +17,13 @@ Our objectives are to:
 
 # Upcoming Meetings
 
+We hold our meetings on the last monday of every month. Currently, we base ourselve off of European time, with meetings at 7PM. If this causes an issue for you, please leave a message on zulip.
+
 ## November Meeting (November 29th, 2021)
 
 We'll be hearing from [Bas Spitters](twitter.com/basspittersbs) about his work verifying Rust programs using a combination of [HACSPEC](https://github.com/HACS-workshop/hacspec), [BedRock](https://github.com/mit-plv/bedrock) and [ConCert](https://github.com/AU-COBRA/ConCert).
+
+[EventBrite](https://www.eventbrite.com/e/november-meeting-rust-verification-with-bas-spitters-tickets-198474531667).
 
 Abstract coming soon!
 
