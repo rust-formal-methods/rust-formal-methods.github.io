@@ -15,15 +15,30 @@ Our objectives are to:
 - Gather feedback and input from industrial and hobbyist users of formal method tooling.
 - Work towards improving tool inter-compatibility, in particular of specifications.
 
-## October Meeting (October 25th, 2021)
+## November Meeting (November 22nd, 2021)
 
-The October meeting of the RFMIG will be held on **October 25th, 2021** at **19:00 CEST (UTC + 2)**.
+We'll be hearing from [Bas Spitters](twitter.com/basspittersbs) about his work verifying Rust programs using a combination of [HACSPEC](https://github.com/HACS-workshop/hacspec), [BedRock](https://github.com/mit-plv/bedrock) and [ConCert](https://github.com/AU-COBRA/ConCert).
 
-To register for the meeting, sign up [here](https://www.eventbrite.com/e/rfmig-specifications-tickets-179529526647?ref=estw).
+Abstract coming soon!
 
-We will be having a discussion on specifications for Rust programs, and going over some example programs to discuss opinions and views.
+## December -- Cancelled
 
-We look forward to seeing you there!
+Though we love talking rust verification, its important to take breaks too. Enjoy the end of your year and we'll see you back in 2022!
 
-## Future Meetings
-- November 29th, 2021
+## January Meeting (January 24th, 2022)
+
+Herman Venter will present to us his work on [MIRAI](https://github.com/facebookexperimental/MIRAI), an abstract interpreter for MIR.
+
+Details coming soon!
+
+## February Meeting (February 28th, 2022)
+
+We will hear an update on Ferrocene, a project to develop a specification for MIR itself, given by Sabree Blackmon and Florian Gilcher.
+
+Details forthcoming! 
+
+## March Meeting (March 28th, 2022)
+
+Celina Val and Daniel Shwartz-Narbonne will present their work on [RMC](https://github.com/model-checking/rmc) (Rust Model Checker), a tool they have been developping at Amazon.
+
+Details forthcoming!
