@@ -45,6 +45,6 @@ Details forthcoming!
 
 ## March Meeting (March 28th, 2022)
 
-Celina Val and Daniel Shwartz-Narbonne will present their work on [RMC](https://github.com/model-checking/rmc) (Rust Model Checker), a tool they have been developping at Amazon.
+Celina Val and Daniel Schwartz-Narbonne will present their work on [RMC](https://github.com/model-checking/rmc) (Rust Model Checker), a tool they have been developing at Amazon.
 
 Details forthcoming!
