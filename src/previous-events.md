@@ -1,5 +1,10 @@
 ## Previous Meetings
 
+### October Meeting (October 25th, 2021)
+
+Unfortunately this meeting was not record (my bad). 
+
+The slides are [here](./previous-events/october.pdf)
 
 ### Inaugural Meeting (September 20th, 2021)
 
