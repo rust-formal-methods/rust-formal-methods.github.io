@@ -15,6 +15,8 @@ Our objectives are to:
 - Gather feedback and input from industrial and hobbyist users of formal method tooling.
 - Work towards improving tool inter-compatibility, in particular of specifications.
 
+# Upcoming Meetings
+
 ## November Meeting (November 22nd, 2021)
 
 We'll be hearing from [Bas Spitters](twitter.com/basspittersbs) about his work verifying Rust programs using a combination of [HACSPEC](https://github.com/HACS-workshop/hacspec), [BedRock](https://github.com/mit-plv/bedrock) and [ConCert](https://github.com/AU-COBRA/ConCert).
