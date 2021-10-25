@@ -17,7 +17,7 @@ Our objectives are to:
 
 # Upcoming Meetings
 
-## November Meeting (November 22nd, 2021)
+## November Meeting (November 29th, 2021)
 
 We'll be hearing from [Bas Spitters](twitter.com/basspittersbs) about his work verifying Rust programs using a combination of [HACSPEC](https://github.com/HACS-workshop/hacspec), [BedRock](https://github.com/mit-plv/bedrock) and [ConCert](https://github.com/AU-COBRA/ConCert).
 
@@ -27,7 +27,7 @@ Abstract coming soon!
 
 Though we love talking rust verification, its important to take breaks too. Enjoy the end of your year and we'll see you back in 2022!
 
-## January Meeting (January 24th, 2022)
+## January Meeting (January 31st, 2022)
 
 Herman Venter will present to us his work on [MIRAI](https://github.com/facebookexperimental/MIRAI), an abstract interpreter for MIR.
 
