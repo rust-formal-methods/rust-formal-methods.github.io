@@ -155,9 +155,14 @@
 <h1 id="upcoming-meetings"><a class="header" href="#upcoming-meetings">Upcoming Meetings</a></h1>
 <p>We hold our meetings on the last monday of every month. Currently, we base ourselve off of European time, with meetings at 7PM. If this causes an issue for you, please leave a message on zulip.</p>
 <h2 id="november-meeting-november-29th-2021"><a class="header" href="#november-meeting-november-29th-2021">November Meeting (November 29th, 2021)</a></h2>
-<p>We'll be hearing from <a href="twitter.com/basspittersbs">Bas Spitters</a> about his work verifying Rust programs using a combination of <a href="https://github.com/HACS-workshop/hacspec">HACSPEC</a>, <a href="https://github.com/mit-plv/bedrock">BedRock</a> and <a href="https://github.com/AU-COBRA/ConCert">ConCert</a>.</p>
-<p><a href="https://www.eventbrite.com/e/november-meeting-rust-verification-with-bas-spitters-tickets-198474531667">EventBrite</a>.</p>
-<p>Abstract coming soon!</p>
+<p><a href="twitter.com/basspittersbs">Bas Spitters</a> <a href="https://www.eventbrite.com/e/november-meeting-rust-verification-with-bas-spitters-tickets-198474531667">EventBrite</a>.</p>
+<p><strong>Formal Verification of Subsets of Rust</strong></p>
+<p>Rust is a big and complex language. Fortunately, it contains a number of interesting sublanguages for which formal verification is more manageable.
+I will give an overview of three projects that we are working on in my group.</p>
+<p><a href="https://github.com/AU-COBRA/ConCert">ConCert</a> is a Coq framework for reasoning about functional programs, in particular focussing on smart contracts. 
+As part of this we have developed a general backend to the Coq proof assistant which allows one to generate provably correct functional <em>rust</em> programs.
+One main use case is to generate rust smart contracts which can be used on the <a href="https://concordium.com">concordium</a> blockchain.</p>
+<p><a href="https://github.com/HACS-workshop/hacspec">HACSPEC</a> is a subset of rust for the specification of high assurance cryptography. We have used it to specify the BLS elliptic curve. This sepcification can be translated to Coq from where we use <a href="https://github.com/mit-plv/fiat-crypto">fiat-cryptography</a> and <a href="https://github.com/mit-plv/bedrock">BedRock</a> to generate a correct by construction, efficient, platform independent implementation.</p>
 <h2 id="december----cancelled"><a class="header" href="#december----cancelled">December -- Cancelled</a></h2>
 <p>Though we love talking rust verification, its important to take breaks too. Enjoy the end of your year and we'll see you back in 2022!</p>
 <h2 id="january-meeting-january-31st-2022"><a class="header" href="#january-meeting-january-31st-2022">January Meeting (January 31st, 2022)</a></h2>
