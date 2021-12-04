@@ -1,6 +1,6 @@
 ## Previous Meetings
 
-## November Meeting (November 29th, 2021)
+### November Meeting (November 29th, 2021)
 
 [Bas Spitters](twitter.com/basspittersbs) [EventBrite](https://www.eventbrite.com/e/november-meeting-rust-verification-with-bas-spitters-tickets-198474531667).
 
