@@ -172,13 +172,16 @@ symbolic execution engine based on Miri (not sure it is active)</li>
 <li><a href="https://github.com/jawline/klee-rust">KLEE-Rust</a>
 KLEE bindings for Rust (inactive for 6 years)
 Unbounded (?)</li>
-<li><a href="https://github.com/hopv/rust-horn">RustHorn</a></li>
+</ul>
+<h2 id="fully-automated-verification"><a class="header" href="#fully-automated-verification">Fully Automated Verification</a></h2>
+<ul>
+<li><a href="https://github.com/hopv/rust-horn">RustHorn</a> Automated loop-invariant finding by reduction to CHCs; First proposed the 'prophetic' verification method of Rust</li>
 </ul>
 <h2 id="auto-active-verification"><a class="header" href="#auto-active-verification">Auto-Active Verification</a></h2>
 <p>Midway between automatic and interactive verification. Relies on hints/annotations/etc inserted in source code such as function contracts, loop invariants, data structure invariants, etc.</p>
 <ul>
 <li><a href="https://www.pm.inf.ethz.ch/research/prusti.html">Prusti</a> <a href="https://viperproject.github.io/prusti-dev/">github link</a></li>
-<li><a href="https://github.com/xldenis/creusot">Creusot</a> Rust → whyml verifier</li>
+<li><a href="https://github.com/xldenis/creusot">Creusot</a> Rust → whyml verifier; Uses the 'prophetic' verification method</li>
 </ul>
 <h2 id="interactive-verification"><a class="header" href="#interactive-verification">Interactive verification</a></h2>
 <p>Converts Rust to code in an interactive theorem prover which is then verified with human input.
