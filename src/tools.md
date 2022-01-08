@@ -31,13 +31,15 @@ symbolic execution engine based on Miri (not sure it is active)
 * [KLEE-Rust](https://github.com/jawline/klee-rust)
 KLEE bindings for Rust (inactive for 6 years)
 Unbounded (?)
-* [RustHorn](https://github.com/hopv/rust-horn)
+
+## Fully Automated Verification
+* [RustHorn](https://github.com/hopv/rust-horn) Automated loop-invariant finding by reduction to CHCs; First proposed the 'prophetic' verification method of Rust
 
 ## Auto-Active Verification
 Midway between automatic and interactive verification. Relies on hints/annotations/etc inserted in source code such as function contracts, loop invariants, data structure invariants, etc.
 
 * [Prusti](https://www.pm.inf.ethz.ch/research/prusti.html) [github link](https://viperproject.github.io/prusti-dev/)
-* [Creusot](https://github.com/xldenis/creusot) Rust → whyml verifier
+* [Creusot](https://github.com/xldenis/creusot) Rust → whyml verifier; Uses the 'prophetic' verification method
 
 ## Interactive verification
 Converts Rust to code in an interactive theorem prover which is then verified with human input.
