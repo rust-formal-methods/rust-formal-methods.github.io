@@ -25,6 +25,8 @@ Though we love talking rust verification, its important to take breaks too. Enjo
 
 ## January Meeting (January 31st, 2022)
 
+[EventBrite](https://www.eventbrite.com/e/rfmig-returns-mirai-with-herman-venter-tickets-241173505447)
+
 Herman Venter will present to us his work on [MIRAI](https://github.com/facebookexperimental/MIRAI), an abstract interpreter for MIR.
 
 Details coming soon!
