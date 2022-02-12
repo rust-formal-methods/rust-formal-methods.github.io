@@ -1,5 +1,11 @@
 ## Previous Meetings
 
+### January Meeting (January 31st, 2022)
+
+Herman Venter gave a retrospective view of his work on [MIRAI](https://github.com/facebookexperimental/mirai), an abstract interpreter for MIR code. We went over key design choices for abstract interpreters and the tradeoffs they imply. 
+
+Find the YouTube video [here](https://www.youtube.com/watch?v=Slf1QWaRe2c).
+
 ### November Meeting (November 29th, 2021)
 
 [Bas Spitters](twitter.com/basspittersbs) [EventBrite](https://www.eventbrite.com/e/november-meeting-rust-verification-with-bas-spitters-tickets-198474531667).
@@ -14,6 +20,9 @@ As part of this we have developed a general backend to the Coq proof assistant w
 One main use case is to generate rust smart contracts which can be used on the [concordium](https://concordium.com) blockchain.
 
 [HACSPEC](https://github.com/HACS-workshop/hacspec) is a subset of rust for the specification of high assurance cryptography. We have used it to specify the BLS elliptic curve. This sepcification can be translated to Coq from where we use [fiat-cryptography](https://github.com/mit-plv/fiat-crypto) and [BedRock](https://github.com/mit-plv/bedrock) to generate a correct by construction, efficient, platform independent implementation.
+
+Find the YouTube video [here](https://www.youtube.com/watch?v=OCehhVDMXKQ).
+
 
 ### October Meeting (October 25th, 2021)
 
