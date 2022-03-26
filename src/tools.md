@@ -4,7 +4,8 @@ Tool types are listed in approximate (and subjective!) increasing order of the l
 ## Dynamic checking tools
 
 * [Miri](https://github.com/rust-lang/miri/) for general UB checking (including data race detection, but only on a single execution)
-Concurrency checkers
+
+### Concurrency checkers
 * [Loom](https://github.com/tokio-rs/loom), which focuses on exhaustive checking 
 * [Shuttle](https://crates.io/crates/shuttle), which focuses on randomized checking 
 
