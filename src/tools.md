@@ -1,6 +1,7 @@
 # Rust verification tools (2021)
 This is a list of Rust verification tools with a bias towards ‘formal methods’ tools. An update of Alastair Reid's [2020 list](https://alastairreid.github.io/rust-verification-tools/).
-Tool types are listed in approximate (and subjective!) increasing order of the level of expertise required and approximate increasing order of the level of assurance that they provide.
+Tool types are listed in approximate (and subjective!) increasing order of the level of expertise required and approximate increasing order of the level of assurance that they provide. General advise on high quality rust can be found in this [book](https://highassurance.rs/).
+ 
 ## Dynamic checking tools
 
 * [Miri](https://github.com/rust-lang/miri/) for general UB checking (including data race detection, but only on a single execution)
