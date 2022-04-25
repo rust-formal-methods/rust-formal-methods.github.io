@@ -244,6 +244,14 @@ Semantics close to MIR, focuses on verification of unsafe code, </li>
 <li><a href="https://ferrous-systems.com/blog/sealed-rust-the-pitch/">Ferrocene</a> (previously called Sealed Rust)</li>
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h2 id="previous-meetings"><a class="header" href="#previous-meetings">Previous Meetings</a></h2>
+<h3 id="march-meeting-march-28th-2022"><a class="header" href="#march-meeting-march-28th-2022">March Meeting (March 28th, 2022)</a></h3>
+<p>Celina Val and Daniel Schwartz-Narbonne will present their work on <a href="https://github.com/model-checking/kani">Kani</a>, a Rust model-checker they are developing at Amazon.</p>
+<p>Kani is a Rust verification tool based on model checking. With Kani, you can ensure that broad classes of problems are absent from your Rust code by writing proof harnesses, which are broadly similar to tests (especially property tests). Kani is especially useful for verifying unsafe code in Rust, where many of the language's usual guarantees can no longer be checked by the compiler. But Kani is also useful for finding panics in safe Rust, and it can check user-defined assertions.</p>
+<p>Kani is currently in the initial development phase, and has not yet made an official release. It is under active development, but it does not yet support all Rust language features.&quot;</p>
+<p>https://model-checking.github.io/rmc/getting-started.html</p>
+<h3 id="february-meeting-february-28th-2022"><a class="header" href="#february-meeting-february-28th-2022">February Meeting (February 28th, 2022)</a></h3>
+<p>Xavier Denis will discuss <a href="https://github.com/xldenis/creusot">Creusot</a>, his deductive verifier for Rust. Creusot aims to provide efficient verification of complex <em>safe</em> Rust code, and is backed by the Why3 verification platform. In this talk we'll briefly cover the high-level architecture of Creusot and some of the unique features in the tool.</p>
+<p>https://www.eventbrite.com/e/creusot-tickets-260072873967</p>
 <h3 id="january-meeting-january-31st-2022"><a class="header" href="#january-meeting-january-31st-2022">January Meeting (January 31st, 2022)</a></h3>
 <p>Herman Venter gave a retrospective view of his work on <a href="https://github.com/facebookexperimental/mirai">MIRAI</a>, an abstract interpreter for MIR code. We went over key design choices for abstract interpreters and the tradeoffs they imply. </p>
 <p>Find the YouTube video <a href="https://www.youtube.com/watch?v=Slf1QWaRe2c">here</a>.</p>
