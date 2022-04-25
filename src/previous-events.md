@@ -1,5 +1,21 @@
 ## Previous Meetings
 
+### March Meeting (March 28th, 2022)
+
+Celina Val and Daniel Schwartz-Narbonne will present their work on [Kani](https://github.com/model-checking/kani), a Rust model-checker they are developing at Amazon.
+
+Kani is a Rust verification tool based on model checking. With Kani, you can ensure that broad classes of problems are absent from your Rust code by writing proof harnesses, which are broadly similar to tests (especially property tests). Kani is especially useful for verifying unsafe code in Rust, where many of the language's usual guarantees can no longer be checked by the compiler. But Kani is also useful for finding panics in safe Rust, and it can check user-defined assertions.
+
+Kani is currently in the initial development phase, and has not yet made an official release. It is under active development, but it does not yet support all Rust language features."
+
+https://model-checking.github.io/rmc/getting-started.html
+
+### February Meeting (February 28th, 2022)
+
+Xavier Denis will discuss [Creusot](https://github.com/xldenis/creusot), his deductive verifier for Rust. Creusot aims to provide efficient verification of complex *safe* Rust code, and is backed by the Why3 verification platform. In this talk we'll briefly cover the high-level architecture of Creusot and some of the unique features in the tool.
+
+https://www.eventbrite.com/e/creusot-tickets-260072873967
+
 ### January Meeting (January 31st, 2022)
 
 Herman Venter gave a retrospective view of his work on [MIRAI](https://github.com/facebookexperimental/mirai), an abstract interpreter for MIR code. We went over key design choices for abstract interpreters and the tradeoffs they imply. 
