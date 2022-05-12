@@ -8,7 +8,7 @@ Kani is a Rust verification tool based on model checking. With Kani, you can ens
 
 Kani is currently in the initial development phase, and has not yet made an official release. It is under active development, but it does not yet support all Rust language features."
 
-https://model-checking.github.io/rmc/getting-started.html
+https://model-checking.github.io/kani/getting-started.html
 
 ### February Meeting (February 28th, 2022)
 
