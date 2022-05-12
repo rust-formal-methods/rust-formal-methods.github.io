@@ -14,7 +14,7 @@ Tool types are listed in approximate (and subjective!) increasing order of the l
 Typically relies on a verification harness to generate symbolic input values for the code under test (although those can sometimes be generated from the function argument types). Typically checks assertions, panics, overflows, etc.
 
 ## Bounded model checking / Static Symbolic Execution
-* [Rust Model Checker (RMC)](https://github.com/model-checking/rmc)
+* [Kani Rust Verifier](https://github.com/model-checking/kani)
 * [SMACK verifier](https://github.com/smackers/smack)
 * [Crux-mir](https://crux.galois.com/) [github](https://github.com/GaloisInc/crucible/tree/master/crux-mir)
 * [Crust](https://github.com/uwplse/crust)
