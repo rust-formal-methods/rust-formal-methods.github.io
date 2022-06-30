@@ -15,19 +15,20 @@ Our objectives are to:
 - Gather feedback and input from industrial and hobbyist users of formal method tooling.
 - Work towards improving tool inter-compatibility, in particular of specifications.
 
+## Interesting projects
+
+These initiatives may interest the developers of formal methods tools for Rust, don't hesitate to join the discussion on Zulip.
+
+- [Project Stable MIR](https://rust-lang.zulipchat.com/#narrow/stream/320896-project-stable-mir): An effort to define a semi-stable API boundary for the Rust compiler specifically targeting verification usecases.
+- [Project Ghost Code](https://rust-lang.zulipchat.com/#narrow/stream/324345-t-lang.2Fghost-code): An experiment to define a generic notion of 'ghost code' for use in the compiler which would enable verification tools to more easily encode their invariants.
+
 # Upcoming Meetings
 
+## July
+
+Due to a cancellation we no longer have a scheduled speaker for July! If you're interested please let us know.
+
+
 We hold our meetings on the last monday of every month. Currently, we base ourselve off of European time, with meetings at 7PM. If this causes an issue for you, please leave a message on zulip.
-
-## April Meeting (April 25th, 2022)
-
-We will hear an update on [Ferrocene](https://ferrous-systems.com/ferrocene/), a project to develop a specification for MIR itself, given by Sabree Blackmon and Florian Gilcher.
-
-[Details and registration](https://www.eventbrite.com/e/ferrocene-progress-report-tickets-318195620667).
-
-## 2nd Rust Verification Workshop [RustVerify](https://sites.google.com/view/rustverify2022/home)
-Co-located with ETAPS 2022, Munich, Sunday, April 03, 2022
-
-Deadline for talk/demo proposals: January 14, 2022 (Friday)
 
 
