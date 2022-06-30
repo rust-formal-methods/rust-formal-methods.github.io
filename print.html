@@ -153,14 +153,16 @@
 <li>Gather feedback and input from industrial and hobbyist users of formal method tooling.</li>
 <li>Work towards improving tool inter-compatibility, in particular of specifications.</li>
 </ul>
+<h2 id="interesting-projects"><a class="header" href="#interesting-projects">Interesting projects</a></h2>
+<p>These initiatives may interest the developers of formal methods tools for Rust, don't hesitate to join the discussion on Zulip.</p>
+<ul>
+<li><a href="https://rust-lang.zulipchat.com/#narrow/stream/320896-project-stable-mir">Project Stable MIR</a>: An effort to define a semi-stable API boundary for the Rust compiler specifically targeting verification usecases.</li>
+<li><a href="https://rust-lang.zulipchat.com/#narrow/stream/324345-t-lang.2Fghost-code">Project Ghost Code</a>: An experiment to define a generic notion of 'ghost code' for use in the compiler which would enable verification tools to more easily encode their invariants.</li>
+</ul>
 <h1 id="upcoming-meetings"><a class="header" href="#upcoming-meetings">Upcoming Meetings</a></h1>
+<h2 id="july"><a class="header" href="#july">July</a></h2>
+<p>Due to a cancellation we no longer have a scheduled speaker for July! If you're interested please let us know.</p>
 <p>We hold our meetings on the last monday of every month. Currently, we base ourselve off of European time, with meetings at 7PM. If this causes an issue for you, please leave a message on zulip.</p>
-<h2 id="april-meeting-april-25th-2022"><a class="header" href="#april-meeting-april-25th-2022">April Meeting (April 25th, 2022)</a></h2>
-<p>We will hear an update on <a href="https://ferrous-systems.com/ferrocene/">Ferrocene</a>, a project to develop a specification for MIR itself, given by Sabree Blackmon and Florian Gilcher.</p>
-<p><a href="https://www.eventbrite.com/e/ferrocene-progress-report-tickets-318195620667">Details and registration</a>.</p>
-<h2 id="2nd-rust-verification-workshop-rustverify"><a class="header" href="#2nd-rust-verification-workshop-rustverify">2nd Rust Verification Workshop <a href="https://sites.google.com/view/rustverify2022/home">RustVerify</a></a></h2>
-<p>Co-located with ETAPS 2022, Munich, Sunday, April 03, 2022</p>
-<p>Deadline for talk/demo proposals: January 14, 2022 (Friday)</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="rust-verification-tools-2021"><a class="header" href="#rust-verification-tools-2021">Rust verification tools (2021)</a></h1>
 <p>This is a list of Rust verification tools with a bias towards ‘formal methods’ tools. An update of Alastair Reid's <a href="https://alastairreid.github.io/rust-verification-tools/">2020 list</a>.
 Tool types are listed in approximate (and subjective!) increasing order of the level of expertise required and approximate increasing order of the level of assurance that they provide. General advise on high quality rust can be found in this <a href="https://highassurance.rs/">book</a>.</p>
@@ -255,7 +257,7 @@ Semantics close to MIR, focuses on verification of unsafe code, </li>
 <p>crux-mir is a symbolic testing tool for Rust.  The user writes test cases using symbolic variables as inputs; crux-mir uses symbolic execution to check that the tests pass for all possible values of the symbolic variables.  crux-mir checks for absence of panics, overflows, and some forms of undefined behavior, and it supports user-defined assertions.  Recently, crux-mir gained support for calling Cryptol specifications directly from Rust code and for compositional reasoning, which allows efficiently verifying more complex functions, such as Rust implementations of cryptographic primitives.
 In this talk, I'll describe the design of crux-mir and show some examples of its use, with particular focus on the newer Cryptol and compositional reasoning features.</p>
 <p><a href="https://www.youtube.com/watch?v=f3b5V3B4Q8c">Video</a></p>
-<h3 id="april-meeting-april-25th-2022-1"><a class="header" href="#april-meeting-april-25th-2022-1">April Meeting (April 25th, 2022)</a></h3>
+<h3 id="april-meeting-april-25th-2022"><a class="header" href="#april-meeting-april-25th-2022">April Meeting (April 25th, 2022)</a></h3>
 <h4 id="abstract-2"><a class="header" href="#abstract-2">Abstract</a></h4>
 <p>Ferrocene is an effort to bring Rust into the realm of safety-critical software while also bringing tangible benefits to so called mission-critical efforts. The project has been ongoing for about a year now. This talk will give an overview of current findings and particularly an observation of the current state of the safety-critical ecosystem.</p>
 <p>Particularly, it will share observations on the application of formal methods in the realm right now.</p>
