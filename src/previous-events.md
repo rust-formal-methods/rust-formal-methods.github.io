@@ -1,5 +1,26 @@
 ## Previous Meetings
 
+<!-- ### November Meeting () -->
+
+### October Meeting (October 24th, 2022)
+
+#### Abstract
+
+We present Aeneas, a new verification toolchain for Rust programs based on a lightweight functional translation. We leverage Rust's rich region-based type system to eliminate memory reasoning for a large class of Rust programs by translating them to a pure lambda-calculus, as long as they do not rely on interior mutability or unsafe code. Doing so, we relieve the proof engineer of the burden of memory-based reasoning, allowing them to instead focus on *functional* properties of their code.
+
+[Video]( https://youtu.be/9j9EE36lJJI )
+
+### September Meeting (September 26th, 2022)
+
+#### Abstract
+This talk describes CreuSAT, a formally verified SAT solver written in Rust. In addition to implementing the core conflict-driven clause learning (CDCL) algorithm, CreuSAT also implements a series of crucial optimizations.
+The most important of these is the two watched literals scheme with blocking literals and circular search, the variable move-to-front (VMTF) decision heuristic, clause deletion, phase saving, and moving average based restarts.
+
+The resulting solver is the first deductively verified solver which is able to consistently solve problems from the SAT competition.
+This is done while maintaining a relatively small code base, amounting to around 4 thousand lines of proof code and program code combined, with a low proof overhead of around three lines of proof code per line of program code.
+
+[Video]( https://youtu.be/MkhjDpai8fM )
+
 ### June Meeting (June 27th, 2022)
 
 #### Abstract
@@ -8,7 +29,7 @@ Statically analyzing information flow, or how data influences other data within 
 #### About the Speaker
 Will Crichton is a 6th year CS Ph.D. student at Stanford University advised by Profs. Pat Hanrahan and Maneesh Agrawala. His research combines programming language theory and cognitive psychology to build better tools for programmers. Will just defended his thesis, "Revisiting Program Slicing with Ownership-based Information Flow", and will soon be starting a postdoc with Shriram Krishnamurthi at Brown to study the learnability of Rust.
 
-Video: Coming Soon!
+[Video](https://youtu.be/adDGcSSZKI4)
 
 ### May Meeting (May 30th, 2022)
 

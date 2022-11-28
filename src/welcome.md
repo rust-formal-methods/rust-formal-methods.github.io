@@ -24,11 +24,5 @@ These initiatives may interest the developers of formal methods tools for Rust, 
 
 # Upcoming Meetings
 
-## July
-
-Due to a cancellation we no longer have a scheduled speaker for July! If you're interested please let us know.
-
-
-We hold our meetings on the last monday of every month. Currently, we base ourselve off of European time, with meetings at 7PM. If this causes an issue for you, please leave a message on zulip.
-
-
+## January (TBA)
+s
