@@ -40,7 +40,14 @@ We host meetings on the last Monday of each month where an invited speaker share
   <li>
     <a href="{{ page.permalink | safe }}">{{page.date | date(format="%B %d")}} - {{ page.title }}</a>
     <br />
-    {{ page.description }}
+    {%- if page.summary %}
+      {{ page.summary | markdown(inline=true) | safe }}
+    {%- elif page.description %}
+      {{ page.description | safe }}
+    {%- elif page.content %}
+      {{ page.content | striptags | truncate(length=150) | safe }}
+    {%- elif page.extra.static_thumbnail %}
+    {%- endif %}
   </li>
 {% endfor %}
 </ul>
@@ -54,9 +61,16 @@ We host meetings on the last Monday of each month where an invited speaker share
   {% continue %}
   {% endif %}
   <li>
-    <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+    <a href="{{ page.permalink | safe }}">{{page.date | date(format="%B %d %Y")}} - {{ page.title }}</a>
     <br />
-    {{ page.description }}
+    {%- if page.summary %}
+      {{ page.summary | markdown(inline=true) | safe }}
+    {%- elif page.description %}
+      {{ page.description | safe }}
+    {%- elif page.content %}
+      {{ page.content | striptags | truncate(length=150) | safe }}
+    {%- elif page.extra.static_thumbnail %}
+    {%- endif %}
   </li>
 {% endfor %}
 </ul>

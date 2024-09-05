@@ -1,0 +1,8 @@
++++
+date = "2024-05-27"
+title = "Debugging SMT issues: Axiom Profiler 2.0"
++++
+
+The majority of automated verification tools rely on SMT solvers for logical reasoning. Often tools spend most of the verification time querying them. However, these solvers are rather opaque: what can I as a verification tool developer or even user do when I run into poor performance or timeouts? In this talk I will describe our work on a new SMT analysis tool called “Axiom Profiler 2.0” which can help with debugging such performance problems. Currently the tool can help with the analysis of quantifier instantiations (the most common root cause of performance issues) during a run of z3, though in the future we hope to enable the analysis of other aspects.
+A prior tool simply called “Axiom Profiler” (1.0) was created with the same goal, but was cumbersome to use (only running on an older version of Windows), suffered from performance issues and frequent crashes, and supported only a single z3 version. Our new 2.0 tool has been rebuilt from scratch in Rust: it can be compiled to WASM to run anywhere, it is ~10x faster and much more stable, and it supports all modern z3 versions (we are open to supporting other SMT solvers in the future).
+The talk will cover the basics of how SMT solvers handle quantifiers, demonstrate how the Axiom Profiler 2.0 helps one to debug and fix related issues, and discuss potential future features. We aim to make this a beneficial tool for all users of SMT solvers and thus I encourage people to raise [suggestions/feature requests/smt-performance-related issues they’ve encountered] during the talk or in the subsequent discussion.

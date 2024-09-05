@@ -1,0 +1,9 @@
+### June Meeting (June 27th, 2022)
+
+#### Abstract
+Statically analyzing information flow, or how data influences other data within a program, is a challenging task in languages with mutation and pointers. Prior work addressed these challenges with bespoke type systems to encode information flow, such as in JFlow (for Java) and FlowCaml (for OCaml). We demonstrate that Rust's existing system of ownership types can repurposed for modular information flow analysis. We describe our analysis using Oxide, a formal model of safe Rust, and prove its soundness as noninterference. We implement the analysis as Flowistry, a tool that analyzes information flow within Rust's MIR CFG. And we show that Flowistry is reasonably precise versus a whole-program analysis via an evaluation on a dataset of large Rust codebases.
+
+#### About the Speaker
+Will Crichton is a 6th year CS Ph.D. student at Stanford University advised by Profs. Pat Hanrahan and Maneesh Agrawala. His research combines programming language theory and cognitive psychology to build better tools for programmers. Will just defended his thesis, "Revisiting Program Slicing with Ownership-based Information Flow", and will soon be starting a postdoc with Shriram Krishnamurthi at Brown to study the learnability of Rust.
+
+[Video](https://youtu.be/adDGcSSZKI4)

@@ -2,9 +2,6 @@
 title = "Contracts in Rust"
 date = 2024-09-24
 +++
-**Title**: 
-
-**Abstract**:
 
 As the growing number of verification tools (Aeneas, Creusot, Kani, Prusti, Verus, ...) has shown, there is a growing community for formal verification of Rust code. 
 Each of these tools needs to re-invent a specification language, leading to a rapidly fragmenting ecosystem of incompatible languages and tools.
