@@ -1,6 +1,6 @@
 +++
 title = "Contracts in Rust"
-date = 2024-09-24
+date = 2024-09-24T19:00:00+02:00
 +++
 
 As the growing number of verification tools (Aeneas, Creusot, Kani, Prusti, Verus, ...) has shown, there is a growing community for formal verification of Rust code. 
@@ -21,6 +21,6 @@ In this talk we present a vision for how we might get to this future, and some o
 
 Felix has been working on the Rust compiler since before Rust 1.0; he was co-lead of the Rust compiler team from 2019 until 2023. Felix has taken on this work as part of a broader interest in enforcing safety and correctness properties for Rust code.
 
-**Meeting Link**:
+**Meeting Link**: [https://ethz.zoom.us/j/68120170474](https://ethz.zoom.us/j/68120170474)
 
 **Recording Link**:
