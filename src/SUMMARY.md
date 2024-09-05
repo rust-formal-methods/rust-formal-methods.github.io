@@ -1,4 +1,0 @@
-- [Welcome](./welcome.md)
-- [Tools](./tools.md)
-- [Previous Events](./previous-events.md)
-- [Code of Conduct](./coc.md)

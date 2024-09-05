@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1 id="rust-formal-methods-interest-group">Rust Formal Methods Interest Group</h1>
+<p>The RFMIG provides a <a href="https://rust-lang.zulipchat.com/#narrow/stream/183875-wg-formal-methods">forum</a> for academics, industry users and any other interested party discuss and collaborate on the challenges of Rust program verification.</p>
+
+<p>Our objectives are to:</p>
+
+<p><em>Improve communication between formal tool developers and the Rust core teams</em></p>
+<ul>
+  <li>Hold 'office hours' with Rust team members to answer questions about the <code>rustc</code> API or the direction of the language.</li>
+  <li>Identify weak points in Rust's current tool interfaces, help shepherd the improvements the formal methods community needs.</li>
+</ul>
+
+<p><em>Foster a community of formal methods tools and users</em></p>
+<ul>
+  <li>Provide a platform for tool developers to share their work and encourage collaboration.</li>
+  <li>Gather feedback and input from industrial and hobbyist users of formal method tooling.</li>
+  <li>Work towards improving tool inter-compatibility, in particular of specifications.</li>
+</ul>
+
+
+
+<h2 id = "meetings">Meetings</h2>
+
+We host meetings on the last Monday of each month where an invited speaker shares their work on a subject related to formal methods and Rust. The meetings are typically held at 19:00 European time, though the time may be adjusted to accomdate speakers 
+
+{% set meetings_section = get_section(path="meetings/_index.md") %}
+
+<h3 id = "upcoming-meetings">Upcoming Meetings</h3>
+
+{% set curr_time = now()|date(format="%s")|int %}
+<ul class="titleList">
+{% for page in meetings_section.pages %}
+  {% set page_time = page.date|date(format="%s")|int %}
+  {% if page_time < curr_time %}
+  {% continue %}
+  {% endif %}
+  <li>
+    <a href="{{ page.permalink | safe }}">{{page.date | date(format="%B %d")}} - {{ page.title }}</a>
+    <br />
+    {{ page.description }}
+  </li>
+{% endfor %}
+</ul>
+
+<h3 id = "past-meetings">Past Meetings</h3>
+
+<ul class="titleList">
+{% for page in meetings_section.pages %}
+  {% set page_time = page.date|date(format="%s")|int %}
+  {% if page_time >= curr_time %}
+  {% continue %}
+  {% endif %}
+  <li>
+    <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+    <br />
+    {{ page.description }}
+  </li>
+{% endfor %}
+</ul>
+
+<h2 id="interesting-projects">Interesting projects</h2>
+
+<p>These initiatives may interest the developers of formal methods tools for Rust, don't hesitate to join the discussion on Zulip.</p>
+
+<ul>
+  <li><a href="https://rust-lang.zulipchat.com/#narrow/stream/320896-project-stable-mir">Project Stable MIR</a>: An effort to define a semi-stable API boundary for the Rust compiler specifically targeting verification usecases.</li>
+  <li><a href="https://rust-lang.zulipchat.com/#narrow/stream/324345-t-lang.2Fghost-code">Project Ghost Code</a>: An experiment to define a generic notion of 'ghost code' for use in the compiler which would enable verification tools to more easily encode their invariants.</li>
+</ul>
+
+{% endblock content %}
