@@ -1,5 +1,6 @@
 +++
 date = 2024-01-22
+title = "Modernizing verified crypto with Rust: introducing HACL-Rust and Eurydice"
 +++
 
 
