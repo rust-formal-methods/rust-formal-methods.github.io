@@ -1,6 +1,6 @@
 +++
 title = "Contracts in Rust"
-date = 2024-09-24T19:00:00+02:00
+date = 2024-09-30T19:00:00+02:00
 +++
 
 As the growing number of verification tools (Aeneas, Creusot, Kani, Prusti, Verus, ...) has shown, there is a growing community for formal verification of Rust code. 
