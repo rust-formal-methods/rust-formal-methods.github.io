@@ -3,7 +3,10 @@ env:
 
 name: Deploy site
 
-on: [push]
+on:
+  push:
+  schedule:
+    - cron: '0 2 * * *'
 
 jobs:
   build:
