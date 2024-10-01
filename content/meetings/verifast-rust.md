@@ -7,9 +7,10 @@ Rust guarantees memory safety and data race freedom through its type checker, wh
 
 Although the use of `unsafe` blocks is not uncommon in Rust crates, writing sound `unsafe` code remains difficult. There are numerous obligations that programmers must fulfill, many of which are easy to overlook, leading to bugs that are difficult to detect. We have extended *VeriFast*, a verification tool based on *modular symbolic execution*, to verify that Rust's safety guarantees hold in programs containing `unsafe` blocks. Using this tool, we have successfully verified approximations of several well-known, fundamental components from Rust's standard library, along with other examples, all of which make use of `unsafe` code.
 
-**Presenter**:
+**Presenter**: Nima Rahimi Foroushaani is a PhD student affiliated with the DistriNet research unit within the Department of Computer Science at KU Leuven, under the mentorship of Prof. Dr. Bart Jacobs, since 2022.
+He earned his master's degree in Computer Engineering, specializing in Computer Systems Architecture, in 2012.
 
-Felix has been working on the Rust compiler since before Rust 1.0; he was co-lead of the Rust compiler team from 2019 until 2023. Felix has taken on this work as part of a broader interest in enforcing safety and correctness properties for Rust code.
+His research endeavours centre around devising methodologies for verifying the desired properties of programming languages and computer programs. Currently, his concentration lies in verifying the safety properties of programs coded in the Rust programming language.
 
 **Meeting Link**: TBA
 
