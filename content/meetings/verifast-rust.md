@@ -1,6 +1,6 @@
 +++
 title = "Towards Sound `unsafe` Rust"
-date = 2024-10-28T19:00:00+01:00 (Paris/Zurich)
+date = 2024-10-28T19:00:00+01:00 # (Paris/Zurich)
 +++
 
 Rust guarantees memory safety and data race freedom through its type checker, which enforces *ownership* and *borrowing* rules. However, adhering strictly to these rules can limit expressiveness and restrict certain high-performance implementations. To address this limitation, Rust allows programmers to relax some type system checks within `unsafe` blocks. The challenge, however, is that maintaining type system invariants within these relaxed blocks becomes the programmer's responsibility.
