@@ -5,6 +5,7 @@ name: Deploy site
 
 on:
   push:
+  pull_request:
   schedule:
     - cron: '0 2 * * *'
 
@@ -29,6 +30,7 @@ jobs:
       with:
         path: ./public
   deploy:
+    if: startsWith(github.repository, 'rust-formal-methods/') && github.event_name != 'pull_request'
     needs: build
 
     permissions:
