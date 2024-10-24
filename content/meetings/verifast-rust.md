@@ -12,6 +12,6 @@ He earned his master's degree in Computer Engineering, specializing in Computer 
 
 His research endeavours centre around devising methodologies for verifying the desired properties of programming languages and computer programs. Currently, his concentration lies in verifying the safety properties of programs coded in the Rust programming language.
 
-**Meeting Link**: TBA
+**Meeting Link**: [Zoom Link](https://ethz.zoom.us/j/62101458314)
 
 **Recording Link**: TBA
