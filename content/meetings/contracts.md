@@ -23,4 +23,4 @@ Felix has been working on the Rust compiler since before Rust 1.0; he was co-lea
 
 **Meeting Link**: [https://ethz.zoom.us/j/68120170474](https://ethz.zoom.us/j/68120170474)
 
-**Recording Link**: [https://www.youtube.com/watch?v=j60gcdpHNaM](https://www.youtube.com/watch?v=j60gcdpHNaM	)
+**Recording Link**: [https://www.youtube.com/watch?v=j60gcdpHNaM](https://www.youtube.com/watch?v=j60gcdpHNaM)

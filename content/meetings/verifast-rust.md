@@ -14,4 +14,4 @@ His research endeavours centre around devising methodologies for verifying the d
 
 **Meeting Link**: [Zoom Link](https://ethz.zoom.us/j/62101458314)
 
-**Recording Link**: TBA
+**Recording Link**: [YouTube](https://www.youtube.com/watch?v=XppPnXzr39E)

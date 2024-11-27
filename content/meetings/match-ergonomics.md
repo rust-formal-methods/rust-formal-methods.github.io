@@ -8,6 +8,6 @@ More details will be announced soon.
 
 **Presenter**: [Nadrieril](https://github.com/Nadrieril/).
 
-**Meeting Link**: TBA
+**Meeting Link**: [Zoom Link](https://ethz.zoom.us/j/63658285876)
 
 **Recording Link**: TBA
