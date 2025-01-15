@@ -8,7 +8,7 @@ It has been put back on the drawing board in recent months as we attempted to us
 
 The design space turned out to have more depth than anticipated, prompting several competing proposals, the creation of three different formalisms, and the development of two tools to assist with answering design questions.
 
-In this talk I will give an overview of the feature along with its history; outline the decisions we're facing now, and present the tools and formalisms we developed along the way, particularly [my webapp](https://nadrieril.github.io/typing-rust-patterns).
+In this talk I will give an overview of the feature along with its history, outline the decisions we're facing now, and present the tools and formalisms we developed along the way, particularly [my webapp](https://nadrieril.github.io/typing-rust-patterns).
 
 **Presenter**: [Nadrieril](https://github.com/Nadrieril/) has been contributing to Rust since 2019, focusing on the implementation and design of pattern-matching-related features.
 He has become the de-facto referent on the topic and aims to make pattern-matching even more fun than it already is.
