@@ -16,4 +16,4 @@ By day he is a research engineer at Inria (France), working on [Aeneas](/meeting
 
 **Meeting Link**: [Zoom Link](https://ethz.zoom.us/j/63658285876)
 
-**Recording Link**: TBA
+**Recording Link**: [YouTube](https://www.youtube.com/watch?v=03BqXYFM6T0)
