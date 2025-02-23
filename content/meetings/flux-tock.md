@@ -1,4 +1,4 @@
-+++ 
++++
 title = "Verifying VTock" 
 date = 2024-02-24 
 +++
