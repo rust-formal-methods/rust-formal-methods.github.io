@@ -27,4 +27,5 @@ Engineer at Dimensional Fund Advisors and completed my undergraduate degree at
 Boston University. Feel free to check out my website for more details:
 https://www.vivienrindisbacher.com/
 
-**Meeting Link**: [Zoom Link](https://ethz.zoom.us/j/62101458314)
+**Meeting Link**: [Zoom Link](https://ethz.zoom.us/j/67876362770
+)
