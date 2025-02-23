@@ -1,6 +1,6 @@
 +++
 title = "Verifying VTock" 
-date = 2024-02-24 
+date = 2025-02-24 
 +++
 
 Tock is a modern operating system designed to safely run multiple distrustful
