@@ -1,6 +1,6 @@
 +++
 title = "Verifying VTock" 
-date = 2025-02-24 
+date = 2025-02-24T19:00:00+01:00 # (Paris/Zurich)
 +++
 
 Tock is a modern operating system designed to safely run multiple distrustful
@@ -11,21 +11,20 @@ not enough to prevent bugs that compromise one of Tock's core guarantees:
 process isolation. In particular, isolation has been violated by bugs in
 interrupt handling, context switching, and hardware configuration code. To
 address these challenges, we are building VTock, a formally verified fork of
-Tock that uses Flux, an automatic Rust verifier, to prove the correctness of
+Tock that uses [Flux](/meetings/flux/), an automatic Rust verifier, to prove the correctness of
 security-critical properties. In this talk, I will give an overview of our
 verification efforts along with some of the challenges we have faced verifying
 production Rust code.
 
 ---
 
-About the speaker: Vivien Rindisbacher
+**Presenter**: Vivien Rindisbacher
 
-Hi! I'm a PhD Student in the Programming Systems Group at the University of
-California San Diego (UCSD). My research focuses on lightweight verification of
-Rust code using tools like Flux. Before joining UCSD, I worked as a Software
-Engineer at Dimensional Fund Advisors and completed my undergraduate degree at
-Boston University. Feel free to check out my website for more details:
-https://www.vivienrindisbacher.com/
+Hi! I'm a PhD Student in the Programming Systems Group at the University of California San Diego (UCSD).
+My research focuses on lightweight verification of Rust code using tools like Flux.
+Before joining UCSD, I worked as a Software Engineer at Dimensional Fund Advisors and completed my undergraduate 
+degree at Boston University. Feel free to check out [my website](https://www.vivienrindisbacher.com/) for more details.
 
-**Meeting Link**: [Zoom Link](https://ethz.zoom.us/j/67876362770
-)
+**Meeting Link**: [Zoom Link](https://ethz.zoom.us/j/67876362770)
+
+**Recording Link**: TBD
