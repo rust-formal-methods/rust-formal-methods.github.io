@@ -14,7 +14,7 @@ In this talk, I will give an overview of our verification efforts along with som
 Hi! I'm a PhD Student in the Programming Systems Group at the University of California San Diego (UCSD).
 My research focuses on lightweight verification of Rust code using tools like Flux.
 Before joining UCSD, I worked as a Software Engineer at Dimensional Fund Advisors and completed my undergraduate 
-degree at Boston University. Feel free to check out my website for more details: https://www.vivienrindisbacher.com/
+degree at Boston University. Feel free to check out [my website](https://www.vivienrindisbacher.com/) for more details.
 
 **Meeting Link**: [Zoom Link](https://ethz.zoom.us/j/67876362770)
 
