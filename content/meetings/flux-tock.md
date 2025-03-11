@@ -27,4 +27,4 @@ degree at Boston University. Feel free to check out [my website](https://www.viv
 
 **Meeting Link**: [Zoom Link](https://ethz.zoom.us/j/67876362770)
 
-**Recording Link**: TBD
+**Recording Link**: [YouTube](https://www.youtube.com/watch?v=reU2rOIjAPY)
