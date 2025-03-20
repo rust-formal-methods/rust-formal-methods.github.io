@@ -12,8 +12,7 @@ In ongoing work, we use RefinedRust to verify core components of the ACE securit
 Low-level systems code like the ACE security monitor (which includes unsafe code in its core) are particularly interesting targets for foundational verification with RefinedRust: The properties we aim to verify are rich and security-critical, and the program code relies on low-level details of the Rust semantics and hardware.
 As part of this work, we are equipping RefinedRust to model and handle larger parts of the Rust language, like traits and closures.
 
-Speaker:
-[Lennard Gäher](https://people.mpi-sws.org/~gaeher/) is a PhD student at MPI-SWS and Saarland University in Germany since 2021, under the supervision of Derek Dreyer. His research focuses on separation logic verification, in particular for verifying properties about programs written in the Rust programming language.
+**Speaker:** [Lennard Gäher](https://people.mpi-sws.org/~gaeher/) is a PhD student at MPI-SWS and Saarland University in Germany since 2021, under the supervision of Derek Dreyer. His research focuses on separation logic verification, in particular for verifying properties about programs written in the Rust programming language.
 
 **Meeting Link**: [Zoom Link](https://ethz.zoom.us/j/64556412079)
 
