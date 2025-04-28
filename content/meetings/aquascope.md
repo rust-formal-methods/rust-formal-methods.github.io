@@ -13,4 +13,4 @@ Lastly, I will discuss how these techniques can be applied to other domains with
 
 **Meeting Link**: [Zoom Link](https://ethz.zoom.us/j/62101458314)
 
-**Recording Link**: TBA
+**Recording Link**: [YouTube](https://www.youtube.com/watch?v=iAbi1rOyeys)

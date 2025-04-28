@@ -16,4 +16,4 @@ As part of this work, we are equipping RefinedRust to model and handle larger pa
 
 **Meeting Link**: [Zoom Link](https://ethz.zoom.us/j/64556412079)
 
-**Recording Link**: TBA
+**Recording Link**: [YouTube](https://www.youtube.com/watch?v=XR8p9R1cPC4)
