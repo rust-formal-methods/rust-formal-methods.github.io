@@ -3,14 +3,18 @@
 {% block content %}
 
 <h1 id="rust-formal-methods-interest-group">Rust Formal Methods Interest Group</h1>
-<p>The RFMIG provides a <a href="https://rust-lang.zulipchat.com/#narrow/stream/183875-wg-formal-methods">forum</a> for academics, industry users and any other interested party discuss and collaborate on the challenges of Rust program verification.</p>
+<p>The RFMIG provides a <a href="https://rust-lang.zulipchat.com/#narrow/stream/183875-wg-formal-methods">forum</a> for
+  academics, industry users and any other interested party discuss and collaborate on the challenges of Rust program
+  verification.</p>
 
 <p>Our objectives are to:</p>
 
 <p><em>Improve communication between formal tool developers and the Rust core teams</em></p>
 <ul>
-  <li>Hold 'office hours' with Rust team members to answer questions about the <code>rustc</code> API or the direction of the language.</li>
-  <li>Identify weak points in Rust's current tool interfaces, help shepherd the improvements the formal methods community needs.</li>
+  <li>Hold 'office hours' with Rust team members to answer questions about the <code>rustc</code> API or the direction
+    of the language.</li>
+  <li>Identify weak points in Rust's current tool interfaces, help shepherd the improvements the formal methods
+    community needs.</li>
 </ul>
 
 <p><em>Foster a community of formal methods tools and users</em></p>
@@ -22,40 +26,43 @@
 
 
 
-<h2 id = "meetings">Meetings</h2>
+<h2 id="meetings">Meetings</h2>
 
-We host meetings on the last Monday of each month where an invited speaker shares their work on a subject related to formal methods and Rust. The meetings are typically held at 19:00 European time, though the time may be adjusted to accomdate speakers 
+We host meetings on the last Monday of each month where an invited speaker shares their work on a subject related to
+formal methods and Rust. The meetings are typically held at 19:00 Central European time, though the time may be adjusted
+to accomdate speakers.
 
 {% set meetings_section = get_section(path="meetings/_index.md") %}
 
-<h3 id = "upcoming-meetings">Upcoming Meetings</h3>
+<h3 id="upcoming-meetings">Upcoming Meetings</h3>
+
+<p>You can also subscribe to our <code>.ics</code> calendar at <a
+    href="https://calendar.google.com/calendar/ical/037afbb24b01e3aeb5d3b2b540b1a1e0d258aac3ab062bdea0b5d9c8fd8c42cc%40group.calendar.google.com/public/basic.ics">this
+    link</a>.</p>
 
 {% set curr_time = now()|date(format="%s")|int %}
 <ul class="titleList">
-{% for page in meetings_section.pages %}
+  {% for page in meetings_section.pages %}
   {% set page_time = page.date|date(format="%s")|int %}
-  {% if page_time < curr_time %}
-  {% continue %}
-  {% endif %}
-  <li>
+  {% if page_time < curr_time %} {% continue %} {% endif %} <li>
     <a href="{{ page.permalink | safe }}">{{page.date | date(format="%B %d")}} - {{ page.title }}</a>
     <br />
     {%- if page.summary %}
-      {{ page.summary | markdown(inline=true) | safe }}
+    {{ page.summary | markdown(inline=true) | safe }}
     {%- elif page.description %}
-      {{ page.description | safe }}
+    {{ page.description | safe }}
     {%- elif page.content %}
-      {{ page.content | striptags | truncate(length=150) | safe }}
+    {{ page.content | striptags | truncate(length=150) | safe }}
     {%- elif page.extra.static_thumbnail %}
     {%- endif %}
-  </li>
-{% endfor %}
+    </li>
+    {% endfor %}
 </ul>
 
-<h3 id = "past-meetings">Past Meetings</h3>
+<h3 id="past-meetings">Past Meetings</h3>
 
 <ul class="titleList">
-{% for page in meetings_section.pages %}
+  {% for page in meetings_section.pages %}
   {% set page_time = page.date|date(format="%s")|int %}
   {% if page_time >= curr_time %}
   {% continue %}
@@ -64,24 +71,28 @@ We host meetings on the last Monday of each month where an invited speaker share
     <a href="{{ page.permalink | safe }}">{{page.date | date(format="%B %d %Y")}} - {{ page.title }}</a>
     <br />
     {%- if page.summary %}
-      {{ page.summary | markdown(inline=true) | safe }}
+    {{ page.summary | markdown(inline=true) | safe }}
     {%- elif page.description %}
-      {{ page.description | safe }}
+    {{ page.description | safe }}
     {%- elif page.content %}
-      {{ page.content | striptags | truncate(length=150) | safe }}
+    {{ page.content | striptags | truncate(length=150) | safe }}
     {%- elif page.extra.static_thumbnail %}
     {%- endif %}
   </li>
-{% endfor %}
+  {% endfor %}
 </ul>
 
 <h2 id="interesting-projects">Interesting projects</h2>
 
-<p>These initiatives may interest the developers of formal methods tools for Rust, don't hesitate to join the discussion on Zulip.</p>
+<p>These initiatives may interest the developers of formal methods tools for Rust, don't hesitate to join the discussion
+  on Zulip.</p>
 
 <ul>
-  <li><a href="https://rust-lang.zulipchat.com/#narrow/stream/320896-project-stable-mir">Project Stable MIR</a>: An effort to define a semi-stable API boundary for the Rust compiler specifically targeting verification usecases.</li>
-  <li><a href="https://rust-lang.zulipchat.com/#narrow/stream/324345-t-lang.2Fghost-code">Project Ghost Code</a>: An experiment to define a generic notion of 'ghost code' for use in the compiler which would enable verification tools to more easily encode their invariants.</li>
+  <li><a href="https://rust-lang.zulipchat.com/#narrow/stream/320896-project-stable-mir">Project Stable MIR</a>: An
+    effort to define a semi-stable API boundary for the Rust compiler specifically targeting verification usecases.</li>
+  <li><a href="https://rust-lang.zulipchat.com/#narrow/stream/324345-t-lang.2Fghost-code">Project Ghost Code</a>: An
+    experiment to define a generic notion of 'ghost code' for use in the compiler which would enable verification tools
+    to more easily encode their invariants.</li>
 </ul>
 
 {% endblock content %}
