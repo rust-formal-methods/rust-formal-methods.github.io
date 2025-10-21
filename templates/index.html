@@ -42,7 +42,7 @@ to accomdate speakers.
 
 {% set curr_time = now()|date(format="%s")|int %}
 <ul class="titleList">
-  {% for page in meetings_section.pages %}
+  {% for page in meetings_section.pages | reverse %}
   {% set page_time = page.date|date(format="%s")|int %}
   {% if page_time < curr_time %} {% continue %} {% endif %} <li>
     <a href="{{ page.permalink | safe }}">{{page.date | date(format="%B %d")}} - {{ page.title }}</a>
