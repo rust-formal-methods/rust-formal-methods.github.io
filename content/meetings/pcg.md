@@ -1,5 +1,5 @@
 +++
-title = "Place Capability System"
+title = "Place Capability Graphs"
 date = 2025-11-24T19:00:00+01:00 # (Paris/Zurich)
 +++
 
