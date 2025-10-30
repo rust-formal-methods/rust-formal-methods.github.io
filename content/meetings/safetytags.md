@@ -12,4 +12,4 @@ This talk will also showcase two ongoing projects: tag-std and RAPx. tag-std pro
 
 **Meeting Link**: [Zoom Link](https://ethz.zoom.us/j/67398986159)
 
-**Recording Link**: not available yet
+**Recording Link**: [YouTube](https://youtu.be/g6o-TtvCFv8)
