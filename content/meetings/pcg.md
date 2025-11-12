@@ -25,6 +25,6 @@ working under the supervision of Alex Summers. His research focuses on Rust
 program verification, and he is also involved in the development of the
 [Prusti](http://prusti.org/) program verifier.
 
-**Meeting Link**: TBA
+**Meeting Link**: [Join Zoom meeting here.](https://ethz.zoom.us/j/69305900756)
 
 **Recording Link**: TBD
