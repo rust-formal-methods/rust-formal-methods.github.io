@@ -27,4 +27,4 @@ program verification, and he is also involved in the development of the
 
 **Meeting Link**: [Join Zoom meeting here.](https://ethz.zoom.us/j/69305900756)
 
-**Recording Link**: TBD
+**Recording Link**: [YouTube](https://youtu.be/JcQX8raHWQE)
