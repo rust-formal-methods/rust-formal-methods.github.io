@@ -12,6 +12,6 @@ Finally, we compare Soteria Rust with Kani and Miri across a suite of benchmarks
 
 **Speaker:** [Opale](https://portfolio.n1ark.com) is a PhD student at imperial College London, under the supervision of Azalea Raad. She works on the [Soteria](https://github.com/soteria-tools/soteria) library with Sacha-Élie Ayoun. Her research interests include under-approximate bug finding, bi-abduction, and language semantics for Rust.
 
-**Meeting Link**: Zoom Link TBA
+**Meeting Link**: [Zoom](https://ethz.zoom.us/j/64354800595)
 
 **Recording Link**: will be provided after the session
