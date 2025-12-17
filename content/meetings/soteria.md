@@ -14,4 +14,4 @@ Finally, we compare Soteria Rust with Kani and Miri across a suite of benchmarks
 
 **Meeting Link**: [Zoom](https://ethz.zoom.us/j/64354800595)
 
-**Recording Link**: will be provided after the session
+**Recording Link**: [YouTube](https://www.youtube.com/watch?v=Q7sOHhbL0N8)
