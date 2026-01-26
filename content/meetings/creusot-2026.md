@@ -12,3 +12,5 @@ as well as the verification of slice functions in the Rust standard library (ong
 **Speaker:** [Li-yao Xia](https://poisson.chat/), research engineer at Laboratoire Méthodes Formelles.
 
 **Zoom Link:** [https://ethz.zoom.us/j/66163706963](https://ethz.zoom.us/j/66163706963)
+
+[**Slides**](https://docs.google.com/presentation/d/e/2PACX-1vTEJL5lYZLX-M-dF0udV0X7l_ElUEpa3yGW24VdWBka6QRvtGk-HekGQe3iFR_57s2ad--zGuAVoQxx/pub#slide=id.p)
