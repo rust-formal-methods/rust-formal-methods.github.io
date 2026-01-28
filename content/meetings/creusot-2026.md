@@ -13,4 +13,6 @@ as well as the verification of slice functions in the Rust standard library (ong
 
 **Zoom Link:** [https://ethz.zoom.us/j/66163706963](https://ethz.zoom.us/j/66163706963)
 
+**Recording:** [YouTube](https://youtu.be/KudwpG-CFkE)
+
 [**Slides**](https://docs.google.com/presentation/d/e/2PACX-1vTEJL5lYZLX-M-dF0udV0X7l_ElUEpa3yGW24VdWBka6QRvtGk-HekGQe3iFR_57s2ad--zGuAVoQxx/pub#slide=id.p)
