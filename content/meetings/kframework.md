@@ -12,4 +12,4 @@ Daniel Cumming works as a verification engineer for Runtime Verification Inc., m
 
 **Meeting Link**: [https://ethz.zoom.us/j/67132185438](https://ethz.zoom.us/j/67132185438)
 
-**Recording Link**: TBD
+**Recording Link**: [YouTube](https://youtu.be/rnPYMGsDSsI)
